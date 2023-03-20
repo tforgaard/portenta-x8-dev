@@ -1,0 +1,8 @@
+services:
+  portenta-x8-dev:
+    image: portenta-x8-dev:latest
+    restart: unless-stopped
+    devices:
+      - /dev/i2c-1
+      - /dev/i2c-2
+      - /dev/i2c-3
