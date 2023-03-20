@@ -1,4 +1,4 @@
 smbus2
-python3-smbus
+#smbus
 python-periphery
-mpu6050-raspberrypi
+#mpu6050-raspberrypi
